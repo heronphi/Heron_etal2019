@@ -1,0 +1,23 @@
+# #  Heron, P.J., et al., 2019, Deformation driven by deep and distant structures: In uence of a mantle lithosphere suture in the Ouachita orogeny, south- eastern United States: Geology, v. 47, p. 147–150, https://doi.org/10.1130/G45690.1.
+
+Contact: Phil Heron, philip.j.heron@durham.ac.uk
+This is the output folder for Model ML 
+The restart files have been removed for space, and they wouldn't work unless used on the specific cluster. 
+
+The models were ran on HPC SciNet, Niagara Cluster. 
+
+
+The ASPECT code can be downloaded from https://github.com/geodynamics/aspect/releases/tag/v2.0.0. 
+
+
+# ASPECT Input file for Model ML for the publication: 
+# # The input file is based heavily on the ASPECT cookbook 'Continental Extension' which was developed by Prof John Naliboff. The authors thank Prof Naliboff for his work.  
+# # 
+# # The majority of the models were completed with the following ASPECT specifications:
+# --     . version 2.0.0-pre (master, 572f967)
+# --     . using deal.II 9.0.0-pre (master, b6f30fb)
+# --     . using Trilinos 12.10.1
+# --     . using p4est 1.1.0
+# --     . running in OPTIMIZED mode
+# --     . running with 400 MPI processes
+

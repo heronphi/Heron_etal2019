@@ -1,0 +1,2224 @@
+-----------------------------------------------------------------------------
+-- This is ASPECT, the Advanced Solver for Problems in Earth's ConvecTion.
+--     . version 2.0.0-pre (master, 572f967)
+--     . using deal.II 9.0.0-pre (master, b6f30fb)
+--     . using Trilinos 12.10.1
+--     . using p4est 1.1.0
+--     . running in OPTIMIZED mode
+--     . running with 400 MPI processes
+-----------------------------------------------------------------------------
+
+Number of active cells: 24,576 (on 4 levels)
+Number of degrees of freedom: 2,097,475 (621,075+27,225+207,025+207,025+207,025+207,025+207,025+207,025+207,025)
+
+Number of free surface degrees of freedom: 81675
+*** Timestep 0:  t=0 years
+   Solving mesh velocity system... 0 iterations.
+   Solving temperature system... 0 iterations.
+   Skipping eii composition solve because RHS is zero.
+   Solving upper system ... 0 iterations.
+   Solving lower system ... 0 iterations.
+   Solving mantle system ... 0 iterations.
+   Solving astheno system ... 0 iterations.
+   Solving seed system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 1
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.0234093
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00501564
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.001168
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000615502
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000487824
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000418533
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000367573
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000325941
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.000290541
+
+
+Number of active cells: 81,920 (on 5 levels)
+Number of degrees of freedom: 6,964,139 (2,062,467+89,249+687,489+687,489+687,489+687,489+687,489+687,489+687,489)
+
+Number of free surface degrees of freedom: 267747
+*** Timestep 0:  t=0 years
+   Solving mesh velocity system... 0 iterations.
+   Solving temperature system... 0 iterations.
+   Skipping eii composition solve because RHS is zero.
+   Solving upper system ... 0 iterations.
+   Solving lower system ... 0 iterations.
+   Solving mantle system ... 0 iterations.
+   Solving astheno system ... 0 iterations.
+   Solving seed system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 1
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.0314882
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.0129493
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00538869
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.00221461
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000919918
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000446772
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000312602
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000280975
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.000269596
+
+
+Number of active cells: 282,624 (on 6 levels)
+Number of degrees of freedom: 23,962,174 (7,097,133+305,064+2,365,711+2,365,711+2,365,711+2,365,711+2,365,711+2,365,711+2,365,711)
+
+Number of free surface degrees of freedom: 915192
+*** Timestep 0:  t=0 years
+   Solving mesh velocity system... 0 iterations.
+   Solving temperature system... 0 iterations.
+   Skipping eii composition solve because RHS is zero.
+   Solving upper system ... 0 iterations.
+   Solving lower system ... 0 iterations.
+   Solving mantle system ... 0 iterations.
+   Solving astheno system ... 0 iterations.
+   Solving seed system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 1
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.013962
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00521285
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00203945
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000802516
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000361077
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000226872
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000187012
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000167773
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.000153235
+
+
+Number of active cells: 1,773,568 (on 7 levels)
+Number of degrees of freedom: 147,652,943 (43,739,259+1,855,413+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753)
+
+Number of free surface degrees of freedom: 5566239
+*** Timestep 0:  t=0 years
+   Solving mesh velocity system... 0 iterations.
+   Solving temperature system... 0 iterations.
+   Skipping eii composition solve because RHS is zero.
+   Solving upper system ... 0 iterations.
+   Solving lower system ... 0 iterations.
+   Solving mantle system ... 0 iterations.
+   Solving astheno system ... 0 iterations.
+   Solving seed system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 1
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.00695856
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00289059
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00114068
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000488422
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000270719
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000214095
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000174006
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000164003
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.000163268
+
+
+   Postprocessing:
+     RMS, max velocity:        0.00488 m/year, 0.0102 m/year
+     Topography min/max:       0 m, 0 m
+     Temperature min/avg/max:  273 K, 1529 K, 1728 K
+     Writing graphical output: output-Heron-Geology/solution/solution-00000
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.88e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        40 |       285s |       9.9% |
+| Assemble composition system     |        24 |      45.4s |       1.6% |
+| Assemble temperature system     |         4 |      10.6s |      0.37% |
+| Build Stokes preconditioner     |        40 |       141s |       4.9% |
+| Build composition preconditioner|        20 |      2.21s |         0% |
+| Build temperature preconditioner|         4 |     0.443s |         0% |
+| Solve Stokes system             |        40 |  2.34e+03s |        82% |
+| Solve composition system        |        20 |      2.39s |         0% |
+| Solve temperature system        |         4 |     0.441s |         0% |
+| Free surface                    |         4 |      3.89s |      0.14% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         1 |      5.87s |       0.2% |
+| Refine mesh structure, part 1   |         3 |     0.598s |         0% |
+| Refine mesh structure, part 2   |         3 |      5.51s |      0.19% |
+| Setup dof systems               |         4 |      6.25s |      0.22% |
+| Setup initial conditions        |         4 |       6.7s |      0.23% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 1:  t=76210.5 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 17 iterations.
+   Solving eii system ... 23 iterations.
+   Solving upper system ... 18 iterations.
+   Solving lower system ... 19 iterations.
+   Solving mantle system ... 19 iterations.
+   Solving astheno system ... 16 iterations.
+   Solving seed system ... 20 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+25 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00231204
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+23 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.00109627
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000672285
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00049346
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000392654
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.00032171
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000274175
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000242104
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000217219
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.000195289
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00506 m/year, 0.0106 m/year
+     Topography min/max:      -169.2 m, 190.5 m
+     Temperature min/avg/max: 273 K, 1529 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  5.03e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        50 |       514s |        10% |
+| Assemble composition system     |        30 |      85.3s |       1.7% |
+| Assemble temperature system     |         5 |      18.6s |      0.37% |
+| Build Stokes preconditioner     |        50 |       235s |       4.7% |
+| Build composition preconditioner|        26 |       4.4s |         0% |
+| Build temperature preconditioner|         5 |       0.8s |         0% |
+| Solve Stokes system             |        50 |  4.12e+03s |        82% |
+| Solve composition system        |        26 |      5.82s |      0.12% |
+| Solve temperature system        |         5 |     0.991s |         0% |
+| Free surface                    |         5 |      5.89s |      0.12% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         2 |       6.4s |      0.13% |
+| Refine mesh structure, part 1   |         3 |     0.598s |         0% |
+| Refine mesh structure, part 2   |         3 |      5.51s |      0.11% |
+| Setup dof systems               |         4 |      6.25s |      0.12% |
+| Setup initial conditions        |         4 |       6.7s |      0.13% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 2:  t=150999 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 15 iterations.
+   Solving eii system ... 21 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 18 iterations.
+   Solving mantle system ... 19 iterations.
+   Solving astheno system ... 16 iterations.
+   Solving seed system ... 21 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+28 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00367828
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.00113799
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000593913
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000344785
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000221549
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000152858
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000112413
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 8.74555e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00505 m/year, 0.0102 m/year
+     Topography min/max:      -162.4 m, 596.7 m
+     Temperature min/avg/max: 273 K, 1528 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  6.97e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        58 |       697s |        10% |
+| Assemble composition system     |        36 |       128s |       1.8% |
+| Assemble temperature system     |         6 |      27.7s |       0.4% |
+| Build Stokes preconditioner     |        58 |       310s |       4.5% |
+| Build composition preconditioner|        32 |      6.61s |         0% |
+| Build temperature preconditioner|         6 |      1.16s |         0% |
+| Solve Stokes system             |        58 |  5.74e+03s |        82% |
+| Solve composition system        |        32 |      9.16s |      0.13% |
+| Solve temperature system        |         6 |      1.49s |         0% |
+| Free surface                    |         6 |      7.99s |      0.11% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         3 |      6.89s |         0% |
+| Refine mesh structure, part 1   |         3 |     0.598s |         0% |
+| Refine mesh structure, part 2   |         3 |      5.51s |         0% |
+| Setup dof systems               |         4 |      6.25s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 3:  t=228524 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 15 iterations.
+   Solving eii system ... 21 iterations.
+   Solving upper system ... 19 iterations.
+   Solving lower system ... 19 iterations.
+   Solving mantle system ... 19 iterations.
+   Solving astheno system ... 16 iterations.
+   Solving seed system ... 22 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+27 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00383656
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.00111734
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000582334
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000380901
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000285024
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000230585
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000194839
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000167973
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000146817
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.000129928
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00508 m/year, 0.0103 m/year
+     Topography min/max:      -314.4 m, 876.5 m
+     Temperature min/avg/max: 273 K, 1528 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  9.51e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        68 |       926s |       9.7% |
+| Assemble composition system     |        42 |       171s |       1.8% |
+| Assemble temperature system     |         7 |      35.9s |      0.38% |
+| Build Stokes preconditioner     |        68 |       402s |       4.2% |
+| Build composition preconditioner|        38 |      8.84s |         0% |
+| Build temperature preconditioner|         7 |      1.52s |         0% |
+| Solve Stokes system             |        68 |   7.9e+03s |        83% |
+| Solve composition system        |        38 |      12.6s |      0.13% |
+| Solve temperature system        |         7 |      1.99s |         0% |
+| Free surface                    |         7 |      10.1s |      0.11% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         4 |      7.38s |         0% |
+| Refine mesh structure, part 1   |         3 |     0.598s |         0% |
+| Refine mesh structure, part 2   |         3 |      5.51s |         0% |
+| Setup dof systems               |         4 |      6.25s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 4:  t=305286 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 14 iterations.
+   Solving eii system ... 20 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 17 iterations.
+   Solving astheno system ... 15 iterations.
+   Solving seed system ... 20 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+25 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00228826
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+23 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000894471
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000465981
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000312953
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.00023773
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000193937
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000165172
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000144552
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 0.000128543
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 10: 0.00011559
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00503 m/year, 0.0103 m/year
+     Topography min/max:      -434.3 m, 1194 m
+     Temperature min/avg/max: 273 K, 1528 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.19e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        78 |  1.15e+03s |       9.7% |
+| Assemble composition system     |        48 |       213s |       1.8% |
+| Assemble temperature system     |         8 |      44.3s |      0.37% |
+| Build Stokes preconditioner     |        78 |       494s |       4.2% |
+| Build composition preconditioner|        44 |      11.3s |         0% |
+| Build temperature preconditioner|         8 |      1.93s |         0% |
+| Solve Stokes system             |        78 |  9.89e+03s |        83% |
+| Solve composition system        |        44 |      15.7s |      0.13% |
+| Solve temperature system        |         8 |      2.49s |         0% |
+| Free surface                    |         8 |      12.1s |       0.1% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         5 |      7.87s |         0% |
+| Refine mesh structure, part 1   |         3 |     0.598s |         0% |
+| Refine mesh structure, part 2   |         3 |      5.51s |         0% |
+| Setup dof systems               |         4 |      6.25s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Snapshot created!
+
+*** Timestep 5:  t=381917 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 13 iterations.
+   Solving eii system ... 20 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 17 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 20 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00216317
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000734805
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00034953
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000215801
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000160587
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000132197
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.000114483
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 0.000101698
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 9: 9.18563e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00497 m/year, 0.0104 m/year
+     Topography min/max:      -557.4 m, 1450 m
+     Temperature min/avg/max: 273 K, 1527 K, 1728 K
+
+Number of active cells: 1,773,568 (on 7 levels)
+Number of degrees of freedom: 147,652,943 (43,739,259+1,855,413+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753)
+
+Number of free surface degrees of freedom: 5566239
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.36e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        87 |  1.36e+03s |        10% |
+| Assemble composition system     |        54 |       255s |       1.9% |
+| Assemble temperature system     |         9 |      52.4s |      0.38% |
+| Build Stokes preconditioner     |        87 |       578s |       4.2% |
+| Build composition preconditioner|        50 |      13.5s |         0% |
+| Build temperature preconditioner|         9 |      2.29s |         0% |
+| Solve Stokes system             |        87 |  1.13e+04s |        83% |
+| Solve composition system        |        50 |      18.7s |      0.14% |
+| Solve temperature system        |         9 |      2.95s |         0% |
+| Create snapshot                 |         1 |      5.92s |         0% |
+| Free surface                    |         9 |      14.1s |       0.1% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         6 |      8.39s |         0% |
+| Refine mesh structure, part 1   |         4 |      1.09s |         0% |
+| Refine mesh structure, part 2   |         4 |      7.36s |         0% |
+| Setup dof systems               |         5 |      9.68s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 6:  t=458084 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 13 iterations.
+   Solving eii system ... 20 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 17 iterations.
+   Solving astheno system ... 15 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+22 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00178627
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000670737
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000404839
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000209091
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000151091
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000122441
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 0.0001051
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 8: 9.36941e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00493 m/year, 0.0104 m/year
+     Topography min/max:      -671.2 m, 1657 m
+     Temperature min/avg/max: 273 K, 1527 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.52e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |        95 |  1.54e+03s |        10% |
+| Assemble composition system     |        60 |       297s |         2% |
+| Assemble temperature system     |        10 |      62.1s |      0.41% |
+| Build Stokes preconditioner     |        95 |       653s |       4.3% |
+| Build composition preconditioner|        56 |      15.7s |       0.1% |
+| Build temperature preconditioner|        10 |      2.65s |         0% |
+| Solve Stokes system             |        95 |  1.25e+04s |        82% |
+| Solve composition system        |        56 |        22s |      0.14% |
+| Solve temperature system        |        10 |      3.41s |         0% |
+| Create snapshot                 |         1 |      5.92s |         0% |
+| Free surface                    |        10 |      16.4s |      0.11% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         7 |      8.89s |         0% |
+| Refine mesh structure, part 1   |         4 |      1.09s |         0% |
+| Refine mesh structure, part 2   |         4 |      7.36s |         0% |
+| Setup dof systems               |         5 |      9.68s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 7:  t=534100 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 13 iterations.
+   Solving eii system ... 19 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 16 iterations.
+   Solving mantle system ... 17 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+22 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00158144
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.00062394
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000278766
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000185129
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000133637
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 0.000106642
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 7: 9.05961e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00491 m/year, 0.0104 m/year
+     Topography min/max:      -775.4 m, 1833 m
+     Temperature min/avg/max: 273 K, 1527 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.65e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       102 |   1.7e+03s |        10% |
+| Assemble composition system     |        66 |       339s |       2.1% |
+| Assemble temperature system     |        11 |      70.3s |      0.43% |
+| Build Stokes preconditioner     |       102 |       718s |       4.4% |
+| Build composition preconditioner|        62 |      18.1s |      0.11% |
+| Build temperature preconditioner|        11 |      3.02s |         0% |
+| Solve Stokes system             |       102 |  1.35e+04s |        82% |
+| Solve composition system        |        62 |      25.1s |      0.15% |
+| Solve temperature system        |        11 |      3.89s |         0% |
+| Create snapshot                 |         1 |      5.92s |         0% |
+| Free surface                    |        11 |      18.4s |      0.11% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         8 |      9.39s |         0% |
+| Refine mesh structure, part 1   |         4 |      1.09s |         0% |
+| Refine mesh structure, part 2   |         4 |      7.36s |         0% |
+| Setup dof systems               |         5 |      9.68s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 8:  t=610085 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 18 iterations.
+   Solving upper system ... 15 iterations.
+   Solving lower system ... 16 iterations.
+   Solving mantle system ... 17 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00125652
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000507157
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00024067
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000157582
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000119946
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 9.56608e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.0049 m/year, 0.0104 m/year
+     Topography min/max:      -873.1 m, 1991 m
+     Temperature min/avg/max: 273 K, 1527 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.76e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       108 |  1.84e+03s |        10% |
+| Assemble composition system     |        72 |       382s |       2.2% |
+| Assemble temperature system     |        12 |      78.7s |      0.45% |
+| Build Stokes preconditioner     |       108 |       775s |       4.4% |
+| Build composition preconditioner|        68 |      20.3s |      0.12% |
+| Build temperature preconditioner|        12 |      3.37s |         0% |
+| Solve Stokes system             |       108 |  1.43e+04s |        82% |
+| Solve composition system        |        68 |      28.1s |      0.16% |
+| Solve temperature system        |        12 |      4.39s |         0% |
+| Create snapshot                 |         1 |      5.92s |         0% |
+| Free surface                    |        12 |      21.1s |      0.12% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |         9 |      9.88s |         0% |
+| Refine mesh structure, part 1   |         4 |      1.09s |         0% |
+| Refine mesh structure, part 2   |         4 |      7.36s |         0% |
+| Setup dof systems               |         5 |      9.68s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 9:  t=686140 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 18 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 16 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00110989
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000495799
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000231363
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000141787
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000104784
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 8.3651e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00489 m/year, 0.0104 m/year
+     Topography min/max:      -969.2 m, 2136 m
+     Temperature min/avg/max: 273 K, 1526 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.86e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       114 |  1.98e+03s |        11% |
+| Assemble composition system     |        78 |       424s |       2.3% |
+| Assemble temperature system     |        13 |      86.8s |      0.47% |
+| Build Stokes preconditioner     |       114 |       831s |       4.5% |
+| Build composition preconditioner|        74 |      22.4s |      0.12% |
+| Build temperature preconditioner|        13 |      3.73s |         0% |
+| Solve Stokes system             |       114 |  1.51e+04s |        81% |
+| Solve composition system        |        74 |      31.2s |      0.17% |
+| Solve temperature system        |        13 |      4.86s |         0% |
+| Create snapshot                 |         1 |      5.92s |         0% |
+| Free surface                    |        13 |      23.2s |      0.13% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        10 |      10.4s |         0% |
+| Refine mesh structure, part 1   |         4 |      1.09s |         0% |
+| Refine mesh structure, part 2   |         4 |      7.36s |         0% |
+| Setup dof systems               |         5 |      9.68s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Snapshot created!
+
+*** Timestep 10:  t=762194 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 18 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 16 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000925531
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000344462
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000176301
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+10 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000118646
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+10 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 9.16611e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00488 m/year, 0.0104 m/year
+     Topography min/max:      -1063 m, 2270 m
+     Temperature min/avg/max: 273 K, 1526 K, 1728 K
+
+Number of active cells: 1,773,568 (on 7 levels)
+Number of degrees of freedom: 147,652,943 (43,739,259+1,855,413+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753)
+
+Number of free surface degrees of freedom: 5566239
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.94e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       119 |  2.09e+03s |        11% |
+| Assemble composition system     |        84 |       465s |       2.4% |
+| Assemble temperature system     |        14 |        95s |      0.49% |
+| Build Stokes preconditioner     |       119 |       877s |       4.5% |
+| Build composition preconditioner|        80 |      24.7s |      0.13% |
+| Build temperature preconditioner|        14 |      4.09s |         0% |
+| Solve Stokes system             |       119 |  1.57e+04s |        81% |
+| Solve composition system        |        80 |      34.2s |      0.18% |
+| Solve temperature system        |        14 |      5.29s |         0% |
+| Create snapshot                 |         2 |      12.3s |         0% |
+| Free surface                    |        14 |      25.9s |      0.13% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        11 |      10.9s |         0% |
+| Refine mesh structure, part 1   |         5 |      1.49s |         0% |
+| Refine mesh structure, part 2   |         5 |      9.41s |         0% |
+| Setup dof systems               |         6 |      13.3s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 11:  t=838206 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 18 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 16 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00101364
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000363948
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000187997
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+10 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000127662
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+10 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 9.70549e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00487 m/year, 0.0104 m/year
+     Topography min/max:      -1155 m, 2391 m
+     Temperature min/avg/max: 273 K, 1526 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.03e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       124 |  2.21e+03s |        11% |
+| Assemble composition system     |        90 |       508s |       2.5% |
+| Assemble temperature system     |        15 |       105s |      0.52% |
+| Build Stokes preconditioner     |       124 |       926s |       4.6% |
+| Build composition preconditioner|        86 |      26.9s |      0.13% |
+| Build temperature preconditioner|        15 |      4.45s |         0% |
+| Solve Stokes system             |       124 |  1.63e+04s |        81% |
+| Solve composition system        |        86 |      37.4s |      0.18% |
+| Solve temperature system        |        15 |      5.74s |         0% |
+| Create snapshot                 |         2 |      12.3s |         0% |
+| Free surface                    |        15 |      27.9s |      0.14% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        12 |      11.4s |         0% |
+| Refine mesh structure, part 1   |         5 |      1.49s |         0% |
+| Refine mesh structure, part 2   |         5 |      9.41s |         0% |
+| Setup dof systems               |         6 |      13.3s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 12:  t=914177 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 16 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 14 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00104094
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000476855
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000254423
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000148496
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+10 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 0.000111541
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+10 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 6: 8.31103e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00486 m/year, 0.0104 m/year
+     Topography min/max:      -1243 m, 2503 m
+     Temperature min/avg/max: 273 K, 1525 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.13e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       130 |  2.34e+03s |        11% |
+| Assemble composition system     |        96 |       551s |       2.6% |
+| Assemble temperature system     |        16 |       113s |      0.53% |
+| Build Stokes preconditioner     |       130 |       981s |       4.6% |
+| Build composition preconditioner|        92 |      29.2s |      0.14% |
+| Build temperature preconditioner|        16 |      4.82s |         0% |
+| Solve Stokes system             |       130 |  1.71e+04s |        80% |
+| Solve composition system        |        92 |      40.5s |      0.19% |
+| Solve temperature system        |        16 |      6.24s |         0% |
+| Create snapshot                 |         2 |      12.3s |         0% |
+| Free surface                    |        16 |      30.1s |      0.14% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        13 |      11.9s |         0% |
+| Refine mesh structure, part 1   |         5 |      1.49s |         0% |
+| Refine mesh structure, part 2   |         5 |      9.41s |         0% |
+| Setup dof systems               |         6 |      13.3s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 13:  t=990195 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000900956
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000371164
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000191969
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000115438
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 8.17984e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00486 m/year, 0.0104 m/year
+     Topography min/max:      -1327 m, 2609 m
+     Temperature min/avg/max: 273 K, 1525 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.22e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       135 |  2.46e+03s |        11% |
+| Assemble composition system     |       102 |       593s |       2.7% |
+| Assemble temperature system     |        17 |       121s |      0.55% |
+| Build Stokes preconditioner     |       135 |  1.03e+03s |       4.6% |
+| Build composition preconditioner|        98 |      31.4s |      0.14% |
+| Build temperature preconditioner|        17 |      5.18s |         0% |
+| Solve Stokes system             |       135 |  1.78e+04s |        80% |
+| Solve composition system        |        98 |      43.6s |       0.2% |
+| Solve temperature system        |        17 |       6.7s |         0% |
+| Create snapshot                 |         2 |      12.3s |         0% |
+| Free surface                    |        17 |      32.2s |      0.14% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        14 |      12.3s |         0% |
+| Refine mesh structure, part 1   |         5 |      1.49s |         0% |
+| Refine mesh structure, part 2   |         5 |      9.41s |         0% |
+| Setup dof systems               |         6 |      13.3s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 14:  t=1.06636e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000812197
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000294948
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000168217
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00012076
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 9.04939e-05
+
+
+   Postprocessing:
+     RMS, max velocity:        0.00486 m/year, 0.0104 m/year
+     Topography min/max:       -1406 m, 2710 m
+     Temperature min/avg/max:  273 K, 1525 K, 1728 K
+     Writing graphical output: output-Heron-Geology/solution/solution-00001
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.31e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       140 |  2.57e+03s |        11% |
+| Assemble composition system     |       108 |       637s |       2.8% |
+| Assemble temperature system     |        18 |       129s |      0.56% |
+| Build Stokes preconditioner     |       140 |  1.07e+03s |       4.7% |
+| Build composition preconditioner|       104 |      33.6s |      0.15% |
+| Build temperature preconditioner|        18 |      5.56s |         0% |
+| Solve Stokes system             |       140 |  1.84e+04s |        80% |
+| Solve composition system        |       104 |      46.7s |       0.2% |
+| Solve temperature system        |        18 |      7.15s |         0% |
+| Create snapshot                 |         2 |      12.3s |         0% |
+| Free surface                    |        18 |      34.3s |      0.15% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        15 |        19s |         0% |
+| Refine mesh structure, part 1   |         5 |      1.49s |         0% |
+| Refine mesh structure, part 2   |         5 |      9.41s |         0% |
+| Setup dof systems               |         6 |      13.3s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Snapshot created!
+
+*** Timestep 15:  t=1.14272e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 12 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 16 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000828984
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000357809
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000172589
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000117789
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 9.05307e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00486 m/year, 0.0104 m/year
+     Topography min/max:      -1483 m, 2809 m
+     Temperature min/avg/max: 273 K, 1524 K, 1728 K
+
+Number of active cells: 1,773,568 (on 7 levels)
+Number of degrees of freedom: 147,652,943 (43,739,259+1,855,413+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753)
+
+Number of free surface degrees of freedom: 5566239
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.39e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       145 |  2.69e+03s |        11% |
+| Assemble composition system     |       114 |       679s |       2.8% |
+| Assemble temperature system     |        19 |       138s |      0.57% |
+| Build Stokes preconditioner     |       145 |  1.12e+03s |       4.7% |
+| Build composition preconditioner|       110 |      35.9s |      0.15% |
+| Build temperature preconditioner|        19 |      5.91s |         0% |
+| Solve Stokes system             |       145 |  1.91e+04s |        80% |
+| Solve composition system        |       110 |      49.7s |      0.21% |
+| Solve temperature system        |        19 |      7.59s |         0% |
+| Create snapshot                 |         3 |        18s |         0% |
+| Free surface                    |        19 |      36.5s |      0.15% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        16 |      19.5s |         0% |
+| Refine mesh structure, part 1   |         6 |      1.87s |         0% |
+| Refine mesh structure, part 2   |         6 |      11.6s |         0% |
+| Setup dof systems               |         7 |      16.9s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 16:  t=1.21924e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000835285
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000353466
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000175091
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000106731
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 7.99532e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00487 m/year, 0.0103 m/year
+     Topography min/max:      -1559 m, 2906 m
+     Temperature min/avg/max: 273 K, 1524 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.49e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       150 |   2.8e+03s |        11% |
+| Assemble composition system     |       120 |       722s |       2.9% |
+| Assemble temperature system     |        20 |       147s |      0.59% |
+| Build Stokes preconditioner     |       150 |  1.17e+03s |       4.7% |
+| Build composition preconditioner|       116 |      38.1s |      0.15% |
+| Build temperature preconditioner|        20 |      6.28s |         0% |
+| Solve Stokes system             |       150 |  1.97e+04s |        79% |
+| Solve composition system        |       116 |        53s |      0.21% |
+| Solve temperature system        |        20 |      8.06s |         0% |
+| Create snapshot                 |         3 |        18s |         0% |
+| Free surface                    |        20 |      38.6s |      0.16% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        17 |        20s |         0% |
+| Refine mesh structure, part 1   |         6 |      1.87s |         0% |
+| Refine mesh structure, part 2   |         6 |      11.6s |         0% |
+| Setup dof systems               |         7 |      16.9s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 17:  t=1.29588e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000800888
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000296568
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000187161
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00010884
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 8.81684e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00487 m/year, 0.0103 m/year
+     Topography min/max:      -1632 m, 3002 m
+     Temperature min/avg/max: 273 K, 1524 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.57e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       155 |  2.92e+03s |        11% |
+| Assemble composition system     |       126 |       765s |         3% |
+| Assemble temperature system     |        21 |       156s |      0.61% |
+| Build Stokes preconditioner     |       155 |  1.21e+03s |       4.7% |
+| Build composition preconditioner|       122 |      40.3s |      0.16% |
+| Build temperature preconditioner|        21 |      6.65s |         0% |
+| Solve Stokes system             |       155 |  2.04e+04s |        79% |
+| Solve composition system        |       122 |      56.1s |      0.22% |
+| Solve temperature system        |        21 |      8.54s |         0% |
+| Create snapshot                 |         3 |        18s |         0% |
+| Free surface                    |        21 |      40.9s |      0.16% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        18 |      20.5s |         0% |
+| Refine mesh structure, part 1   |         6 |      1.87s |         0% |
+| Refine mesh structure, part 2   |         6 |      11.6s |         0% |
+| Setup dof systems               |         7 |      16.9s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 18:  t=1.37257e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+22 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000795846
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+18 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000326066
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000167836
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000131404
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 9.60082e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00488 m/year, 0.0103 m/year
+     Topography min/max:      -1703 m, 3095 m
+     Temperature min/avg/max: 273 K, 1523 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.66e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       160 |  3.03e+03s |        11% |
+| Assemble composition system     |       132 |       807s |         3% |
+| Assemble temperature system     |        22 |       164s |      0.62% |
+| Build Stokes preconditioner     |       160 |  1.26e+03s |       4.7% |
+| Build composition preconditioner|       128 |      42.7s |      0.16% |
+| Build temperature preconditioner|        22 |      7.01s |         0% |
+| Solve Stokes system             |       160 |  2.11e+04s |        79% |
+| Solve composition system        |       128 |      59.2s |      0.22% |
+| Solve temperature system        |        22 |      9.01s |         0% |
+| Create snapshot                 |         3 |        18s |         0% |
+| Free surface                    |        22 |        43s |      0.16% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        19 |        21s |         0% |
+| Refine mesh structure, part 1   |         6 |      1.87s |         0% |
+| Refine mesh structure, part 2   |         6 |      11.6s |         0% |
+| Setup dof systems               |         7 |      16.9s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 19:  t=1.44924e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+23 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000831887
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000316716
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000147759
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00010343
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 7.95585e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00489 m/year, 0.0103 m/year
+     Topography min/max:      -1771 m, 3187 m
+     Temperature min/avg/max: 273 K, 1523 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.75e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       165 |  3.15e+03s |        11% |
+| Assemble composition system     |       138 |       850s |       3.1% |
+| Assemble temperature system     |        23 |       172s |      0.63% |
+| Build Stokes preconditioner     |       165 |  1.31e+03s |       4.8% |
+| Build composition preconditioner|       134 |      44.9s |      0.16% |
+| Build temperature preconditioner|        23 |      7.38s |         0% |
+| Solve Stokes system             |       165 |  2.17e+04s |        79% |
+| Solve composition system        |       134 |      62.2s |      0.23% |
+| Solve temperature system        |        23 |      9.43s |         0% |
+| Create snapshot                 |         3 |        18s |         0% |
+| Free surface                    |        23 |        45s |      0.16% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        20 |      21.5s |         0% |
+| Refine mesh structure, part 1   |         6 |      1.87s |         0% |
+| Refine mesh structure, part 2   |         6 |      11.6s |         0% |
+| Setup dof systems               |         7 |      16.9s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Snapshot created!
+
+*** Timestep 20:  t=1.52588e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 18 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+23 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000819439
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000315834
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00014701
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 9.71103e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00489 m/year, 0.0103 m/year
+     Topography min/max:      -1837 m, 3279 m
+     Temperature min/avg/max: 273 K, 1523 K, 1728 K
+
+Number of active cells: 1,773,568 (on 7 levels)
+Number of degrees of freedom: 147,652,943 (43,739,259+1,855,413+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753)
+
+Number of free surface degrees of freedom: 5566239
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.83e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       169 |  3.24e+03s |        11% |
+| Assemble composition system     |       144 |       893s |       3.2% |
+| Assemble temperature system     |        24 |       180s |      0.64% |
+| Build Stokes preconditioner     |       169 |  1.34e+03s |       4.8% |
+| Build composition preconditioner|       140 |      47.1s |      0.17% |
+| Build temperature preconditioner|        24 |      7.76s |         0% |
+| Solve Stokes system             |       169 |  2.23e+04s |        79% |
+| Solve composition system        |       140 |      65.2s |      0.23% |
+| Solve temperature system        |        24 |      9.86s |         0% |
+| Create snapshot                 |         4 |      24.3s |         0% |
+| Free surface                    |        24 |      47.1s |      0.17% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        21 |      22.1s |         0% |
+| Refine mesh structure, part 1   |         7 |      2.33s |         0% |
+| Refine mesh structure, part 2   |         7 |      13.7s |         0% |
+| Setup dof systems               |         8 |      20.5s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 21:  t=1.60247e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+25 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.00084709
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000345789
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000163879
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000107942
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 8.02628e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.0049 m/year, 0.0103 m/year
+     Topography min/max:      -1902 m, 3369 m
+     Temperature min/avg/max: 273 K, 1522 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  2.92e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       174 |  3.35e+03s |        11% |
+| Assemble composition system     |       150 |       936s |       3.2% |
+| Assemble temperature system     |        25 |       190s |      0.65% |
+| Build Stokes preconditioner     |       174 |  1.39e+03s |       4.8% |
+| Build composition preconditioner|       146 |      49.7s |      0.17% |
+| Build temperature preconditioner|        25 |      8.13s |         0% |
+| Solve Stokes system             |       174 |   2.3e+04s |        79% |
+| Solve composition system        |       146 |      68.4s |      0.23% |
+| Solve temperature system        |        25 |      10.3s |         0% |
+| Create snapshot                 |         4 |      24.3s |         0% |
+| Free surface                    |        25 |      49.2s |      0.17% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        22 |      22.6s |         0% |
+| Refine mesh structure, part 1   |         7 |      2.33s |         0% |
+| Refine mesh structure, part 2   |         7 |      13.7s |         0% |
+| Setup dof systems               |         8 |      20.5s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 22:  t=1.67902e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+25 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000824055
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000311714
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000168697
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000126111
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 8.50823e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00491 m/year, 0.0103 m/year
+     Topography min/max:      -1964 m, 3459 m
+     Temperature min/avg/max: 273 K, 1522 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.02e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       179 |  3.47e+03s |        11% |
+| Assemble composition system     |       156 |       979s |       3.2% |
+| Assemble temperature system     |        26 |       198s |      0.66% |
+| Build Stokes preconditioner     |       179 |  1.44e+03s |       4.8% |
+| Build composition preconditioner|       152 |        52s |      0.17% |
+| Build temperature preconditioner|        26 |       8.5s |         0% |
+| Solve Stokes system             |       179 |  2.38e+04s |        79% |
+| Solve composition system        |       152 |      71.5s |      0.24% |
+| Solve temperature system        |        26 |      10.8s |         0% |
+| Create snapshot                 |         4 |      24.3s |         0% |
+| Free surface                    |        26 |      51.4s |      0.17% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        23 |      23.1s |         0% |
+| Refine mesh structure, part 1   |         7 |      2.33s |         0% |
+| Refine mesh structure, part 2   |         7 |      13.7s |         0% |
+| Setup dof systems               |         8 |      20.5s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 23:  t=1.75557e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 12 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+25 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000826912
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+22 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.00036694
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000173292
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.00011475
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 8.62796e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00492 m/year, 0.0103 m/year
+     Topography min/max:      -2024 m, 3548 m
+     Temperature min/avg/max: 273 K, 1522 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.12e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       184 |  3.58e+03s |        11% |
+| Assemble composition system     |       162 |  1.02e+03s |       3.3% |
+| Assemble temperature system     |        27 |       207s |      0.66% |
+| Build Stokes preconditioner     |       184 |  1.49e+03s |       4.8% |
+| Build composition preconditioner|       158 |      54.4s |      0.17% |
+| Build temperature preconditioner|        27 |      8.87s |         0% |
+| Solve Stokes system             |       184 |  2.45e+04s |        79% |
+| Solve composition system        |       158 |      74.5s |      0.24% |
+| Solve temperature system        |        27 |      11.3s |         0% |
+| Create snapshot                 |         4 |      24.3s |         0% |
+| Free surface                    |        27 |      53.5s |      0.17% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        24 |      23.6s |         0% |
+| Refine mesh structure, part 1   |         7 |      2.33s |         0% |
+| Refine mesh structure, part 2   |         7 |      13.7s |         0% |
+| Setup dof systems               |         8 |      20.5s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 24:  t=1.83213e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 17 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 12 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000860868
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+21 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000319359
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+16 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.00016871
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000109748
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+11 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 8.02567e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00492 m/year, 0.0103 m/year
+     Topography min/max:      -2083 m, 3635 m
+     Temperature min/avg/max: 273 K, 1521 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.22e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       189 |  3.69e+03s |        11% |
+| Assemble composition system     |       168 |  1.06e+03s |       3.3% |
+| Assemble temperature system     |        28 |       215s |      0.67% |
+| Build Stokes preconditioner     |       189 |  1.53e+03s |       4.8% |
+| Build composition preconditioner|       164 |      56.7s |      0.18% |
+| Build temperature preconditioner|        28 |      9.24s |         0% |
+| Solve Stokes system             |       189 |  2.53e+04s |        79% |
+| Solve composition system        |       164 |      77.5s |      0.24% |
+| Solve temperature system        |        28 |      11.7s |         0% |
+| Create snapshot                 |         4 |      24.3s |         0% |
+| Free surface                    |        28 |      55.6s |      0.17% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        25 |      24.1s |         0% |
+| Refine mesh structure, part 1   |         7 |      2.33s |         0% |
+| Refine mesh structure, part 2   |         7 |      13.7s |         0% |
+| Setup dof systems               |         8 |      20.5s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Snapshot created!
+
+*** Timestep 25:  t=1.90874e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000790669
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000268349
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000158989
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 0.000102586
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+12 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 5: 7.56192e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00493 m/year, 0.0103 m/year
+     Topography min/max:      -2139 m, 3722 m
+     Temperature min/avg/max: 273 K, 1521 K, 1728 K
+
+Number of active cells: 1,773,568 (on 7 levels)
+Number of degrees of freedom: 147,652,943 (43,739,259+1,855,413+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753+14,579,753)
+
+Number of free surface degrees of freedom: 5566239
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.31e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       194 |  3.81e+03s |        12% |
+| Assemble composition system     |       174 |  1.11e+03s |       3.3% |
+| Assemble temperature system     |        29 |       223s |      0.67% |
+| Build Stokes preconditioner     |       194 |  1.58e+03s |       4.8% |
+| Build composition preconditioner|       170 |        59s |      0.18% |
+| Build temperature preconditioner|        29 |       9.6s |         0% |
+| Solve Stokes system             |       194 |   2.6e+04s |        78% |
+| Solve composition system        |       170 |      80.4s |      0.24% |
+| Solve temperature system        |        29 |      12.1s |         0% |
+| Create snapshot                 |         5 |      30.2s |         0% |
+| Free surface                    |        29 |      57.7s |      0.17% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        26 |      24.5s |         0% |
+| Refine mesh structure, part 1   |         8 |      2.79s |         0% |
+| Refine mesh structure, part 2   |         8 |      15.7s |         0% |
+| Setup dof systems               |         9 |      24.1s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 26:  t=1.98538e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000779245
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+19 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000299618
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000152729
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+13 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 9.7171e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00494 m/year, 0.0103 m/year
+     Topography min/max:      -2192 m, 3808 m
+     Temperature min/avg/max: 273 K, 1521 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.39e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       198 |   3.9e+03s |        12% |
+| Assemble composition system     |       180 |  1.15e+03s |       3.4% |
+| Assemble temperature system     |        30 |       233s |      0.69% |
+| Build Stokes preconditioner     |       198 |  1.62e+03s |       4.8% |
+| Build composition preconditioner|       176 |      61.2s |      0.18% |
+| Build temperature preconditioner|        30 |      9.98s |         0% |
+| Solve Stokes system             |       198 |  2.66e+04s |        78% |
+| Solve composition system        |       176 |      83.5s |      0.25% |
+| Solve temperature system        |        30 |      12.6s |         0% |
+| Create snapshot                 |         5 |      30.2s |         0% |
+| Free surface                    |        30 |      59.8s |      0.18% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        27 |        25s |         0% |
+| Refine mesh structure, part 1   |         8 |      2.79s |         0% |
+| Refine mesh structure, part 2   |         8 |      15.7s |         0% |
+| Setup dof systems               |         9 |      24.1s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 27:  t=2.06205e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+23 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000743192
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+20 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000278757
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000148182
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+15 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 9.73876e-05
+
+
+   Postprocessing:
+     RMS, max velocity:        0.00494 m/year, 0.0103 m/year
+     Topography min/max:       -2242 m, 3894 m
+     Temperature min/avg/max:  273 K, 1520 K, 1728 K
+     Writing graphical output: output-Heron-Geology/solution/solution-00002
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.47e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       202 |  3.99e+03s |        11% |
+| Assemble composition system     |       186 |  1.19e+03s |       3.4% |
+| Assemble temperature system     |        31 |       241s |      0.69% |
+| Build Stokes preconditioner     |       202 |  1.66e+03s |       4.8% |
+| Build composition preconditioner|       182 |      63.5s |      0.18% |
+| Build temperature preconditioner|        31 |      10.3s |         0% |
+| Solve Stokes system             |       202 |  2.72e+04s |        78% |
+| Solve composition system        |       182 |      86.6s |      0.25% |
+| Solve temperature system        |        31 |      13.1s |         0% |
+| Create snapshot                 |         5 |      30.2s |         0% |
+| Free surface                    |        31 |      61.9s |      0.18% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        28 |      31.3s |         0% |
+| Refine mesh structure, part 1   |         8 |      2.79s |         0% |
+| Refine mesh structure, part 2   |         8 |      15.7s |         0% |
+| Setup dof systems               |         9 |      24.1s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 28:  t=2.13874e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+24 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000753112
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+22 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000273018
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000152811
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 9.70876e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00495 m/year, 0.0103 m/year
+     Topography min/max:      -2289 m, 3978 m
+     Temperature min/avg/max: 273 K, 1520 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.56e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       206 |  4.08e+03s |        11% |
+| Assemble composition system     |       192 |  1.23e+03s |       3.5% |
+| Assemble temperature system     |        32 |       250s |       0.7% |
+| Build Stokes preconditioner     |       206 |  1.69e+03s |       4.8% |
+| Build composition preconditioner|       188 |      65.7s |      0.18% |
+| Build temperature preconditioner|        32 |        11s |         0% |
+| Solve Stokes system             |       206 |  2.79e+04s |        78% |
+| Solve composition system        |       188 |      89.6s |      0.25% |
+| Solve temperature system        |        32 |      13.5s |         0% |
+| Create snapshot                 |         5 |      30.2s |         0% |
+| Free surface                    |        32 |        64s |      0.18% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        29 |      31.8s |         0% |
+| Refine mesh structure, part 1   |         8 |      2.79s |         0% |
+| Refine mesh structure, part 2   |         8 |      15.7s |         0% |
+| Setup dof systems               |         9 |      24.1s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Timestep 29:  t=2.21544e+06 years
+   Solving mesh velocity system... 11 iterations.
+   Solving temperature system... 11 iterations.
+   Solving eii system ... 17 iterations.
+   Solving upper system ... 16 iterations.
+   Solving lower system ... 17 iterations.
+   Solving mantle system ... 15 iterations.
+   Solving astheno system ... 13 iterations.
+   Solving seed system ... 19 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+25 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 1: 0.000720502
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+22 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 2: 0.000257626
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+17 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 3: 0.000136104
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 0+14 iterations.
+      Relative nonlinear residual (Stokes system) after nonlinear iteration 4: 9.40295e-05
+
+
+   Postprocessing:
+     RMS, max velocity:       0.00496 m/year, 0.0103 m/year
+     Topography min/max:      -2332 m, 4061 m
+     Temperature min/avg/max: 273 K, 1520 K, 1728 K
+
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  3.64e+04s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble Stokes system          |       210 |  4.18e+03s |        11% |
+| Assemble composition system     |       198 |  1.28e+03s |       3.5% |
+| Assemble temperature system     |        33 |       258s |      0.71% |
+| Build Stokes preconditioner     |       210 |  1.73e+03s |       4.8% |
+| Build composition preconditioner|       194 |      67.9s |      0.19% |
+| Build temperature preconditioner|        33 |      11.3s |         0% |
+| Solve Stokes system             |       210 |  2.85e+04s |        78% |
+| Solve composition system        |       194 |      92.5s |      0.25% |
+| Solve temperature system        |        33 |        14s |         0% |
+| Create snapshot                 |         5 |      30.2s |         0% |
+| Free surface                    |        33 |      66.1s |      0.18% |
+| Initialization                  |         1 |      0.24s |         0% |
+| Postprocessing                  |        30 |      32.4s |         0% |
+| Refine mesh structure, part 1   |         8 |      2.79s |         0% |
+| Refine mesh structure, part 2   |         8 |      15.7s |         0% |
+| Setup dof systems               |         9 |      24.1s |         0% |
+| Setup initial conditions        |         4 |       6.7s |         0% |
++---------------------------------+-----------+------------+------------+
+
+*** Snapshot created!
+
+*** Timestep 30:  t=2.29215e+06 years
+   Solving mesh velocity system... 11 iterations.
+[nia1176:17983:0] Caught signal 11 (Segmentation fault)
+==== backtrace ====
+ 2 0x000000000005723c mxm_handle_error()  /tmp/mxm_local_copy/mxm-3.5.3094/src/mxm/util/debug/debug.c:641
+ 3 0x00000000000573ac mxm_error_signal_handler()  /tmp/mxm_local_copy/mxm-3.5.3094/src/mxm/util/debug/debug.c:616
+ 4 0x0000000000033280 killpg()  ??:0
+ 5 0x000000000014763a _ZN21Epetra_MpiDistributor21CreateSendStructures_EiiRKiPS0_()  ??:0
+ 6 0x0000000000147fd0 _ZN21Epetra_MpiDistributor15CreateFromSendsERKiPS0_bRi()  ??:0
+ 7 0x000000000014ac64 _ZN21Epetra_MpiDistributor13ComputeSends_IiEEiiRPKT_RPKiRiRPS1_RPii()  ??:0
+ 8 0x0000000000149f11 _ZN21Epetra_MpiDistributor15CreateFromRecvsERKiPS0_S2_bRiRPiS5_()  ??:0
+ 9 0x00000000000dc9dc _ZN13Epetra_Import9ConstructIiEEvRK15Epetra_BlockMapS3_iPKi()  ??:0
+10 0x00000000000db7ee _ZN13Epetra_ImportC1ERK15Epetra_BlockMapS2_()  ??:0
+11 0x000000000647058d _ZN6dealii16TrilinosWrappers3MPI6Vector6reinitERKS2_bb()  /home/r/russ/pheron/dealii_gcc/source/lac/trilinos_vector.cc:249
+12 0x000000000647058d operator*()  /cvmfs/soft.computecanada.ca/nix/store/lvjwgn6hpngyy6k4xqcqa9h2cxy3fl30-gfortran-5.4.0/include/c++/5.4.0/bits/unique_ptr.h:291
+13 0x000000000647058d ??()  /home/r/russ/pheron/dealii_gcc/source/lac/trilinos_vector.cc:251
+14 0x0000000006470f34 _ZN6dealii16TrilinosWrappers3MPI6VectoraSERKS2_()  /home/r/russ/pheron/dealii_gcc/source/lac/trilinos_vector.cc:451
+15 0x00000000064393c6 _ZN6dealii16TrilinosWrappers3MPI11BlockVectoraSERKS2_()  /home/r/russ/pheron/dealii_gcc/source/lac/trilinos_block_vector.cc:52
+16 0x0000000000d46e3c _ZN6aspect18FreeSurfaceHandlerILi3EE25interpolate_mesh_velocityEv()  /home/r/russ/pheron/dealii_gcc/aspect/source/simulator/free_surface.cc:699
+17 0x0000000000d4f9ac _ZN6aspect18FreeSurfaceHandlerILi3EE7executeEv()  /home/r/russ/pheron/dealii_gcc/aspect/source/simulator/free_surface.cc:293
+18 0x0000000000d02fe4 _ZN6aspect9SimulatorILi3EE14solve_timestepEv()  /home/r/russ/pheron/dealii_gcc/aspect/source/simulator/core.cc:1487
+19 0x0000000000d27885 _ZN6aspect9SimulatorILi3EE3runEv()  /home/r/russ/pheron/dealii_gcc/aspect/source/simulator/core.cc:1620
+20 0x000000000093f8ff _Z13run_simulatorILi3EEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb()  /home/r/russ/pheron/dealii_gcc/aspect/source/main.cc:519
+21 0x00000000007d0bd4 main()  /home/r/russ/pheron/dealii_gcc/aspect/source/main.cc:671
+22 0x00000000000202e0 __libc_start_main()  ??:0
+23 0x00000000007f349a _start()  /tmp/nix-build-glibc-2.24.drv-0/glibc-2.24/csu/../sysdeps/x86_64/start.S:120
+===================
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node nia1176 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+scontrol show jobid 1044622
+JobId=1044622 JobName=ModelML
+   UserId=pheron(3005241) GroupId=russ(6006417) MCS_label=N/A
+   Priority=1901978 Nice=0 Account=rrg-russ QOS=normal
+   JobState=FAILED Reason=NonZeroExitCode Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=139:0
+   RunTime=10:09:02 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2019-03-15T14:09:10 EligibleTime=2019-03-15T14:09:10
+   StartTime=2019-03-15T15:03:21 EndTime=2019-03-16T01:12:23 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-03-15T15:03:21
+   Partition=compute AllocNode:Sid=nia-login01:48477
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=nia[1176,1181,1217,1225,1227,1234,1238,1247,1250,1265]
+   BatchHost=nia1176
+   NumNodes=10 NumCPUs=800 NumTasks=400 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=800,node=10,billing=400
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=0 MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/gpfs/fs0/scratch/r/russ/pheron/MARCH2019/Heron_etal_Geology_ModelML/mpijob.sh
+   WorkDir=/gpfs/fs0/scratch/r/russ/pheron/MARCH2019/Heron_etal_Geology_ModelML
+   StdErr=/gpfs/fs0/scratch/r/russ/pheron/MARCH2019/Heron_etal_Geology_ModelML/slurm-1044622.out
+   StdIn=/dev/null
+   StdOut=/gpfs/fs0/scratch/r/russ/pheron/MARCH2019/Heron_etal_Geology_ModelML/slurm-1044622.out
+   Power=
+   
+
+sacct -j 1044622
+       JobID    JobName    Account    Elapsed  MaxVMSize     MaxRSS  SystemCPU    UserCPU ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- ---------- ---------- -------- 
+1044622         ModelML   rrg-russ   10:09:02                       1-00:09:59 167-14:53+     11:0 
+1044622.bat+      batch   rrg-russ   10:09:02 241423744K  84653528K   03:02:56 16-17:43:+     11:0 
+1044622.ext+     extern   rrg-russ   10:09:02    168876K      1276K  00:00.008  00:00.004      0:0 
+1044622.0         orted   rrg-russ   10:08:51 243017380K  86300768K   21:07:03 150-21:09+      0:0 

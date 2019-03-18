@@ -1,0 +1,343 @@
+# ASPECT Input file for Model ML for the publication: 
+# #  Heron, P.J., et al., 2019, Deformation driven by deep and distant structures: In uence of a mantle lithosphere suture in the Ouachita orogeny, south- eastern United States: Geology, v. 47, p. 147–150, https://doi.org/10.1130/G45690.1.
+# #
+# # The input file is based heavily on the ASPECT cookbook 'Continental Extension' which was developed by Prof John Naliboff. The authors thank Prof Naliboff for his work.  
+# # 
+# # The majority of the models were completed with the following ASPECT specifications:
+# --     . version 2.0.0-pre (master, 572f967)
+# --     . using deal.II 9.0.0-pre (master, b6f30fb)
+# --     . using Trilinos 12.10.1
+# --     . using p4est 1.1.0
+# --     . running in OPTIMIZED mode
+# --     . running with 400 MPI processes
+
+####  Global parameters
+set Dimension                              = 3
+set Start time                             = 0
+set End time                               = 10e6
+set Use years in output instead of seconds = true
+set Linear solver tolerance                = 1e-7
+set Nonlinear solver scheme                = iterated Stokes
+set Nonlinear solver tolerance             = 1e-4
+set Max nonlinear iterations               = 10
+set Number of cheap Stokes solver steps    = 0
+set CFL number                             = 0.5
+set Output directory                       = output-Heron-Geology
+set Timing output frequency                = 1
+set Pressure normalization                 = no
+set Resume computation                    = true
+
+
+subsection Checkpointing
+   set Steps between checkpoint = 5
+   set Time between checkpoint  = 0
+end
+
+#### Parameters describing the model
+
+# Model geometry (800x800x600 km, 2 km spacing initially)
+subsection Geometry model
+  set Model name = box
+  subsection Box
+    set X repetitions = 4
+    set Y repetitions = 4
+    set Z repetitions = 3
+    set X extent      = 800e3
+    set Y extent      = 800e3
+    set Z extent      = 600e3
+  end
+end
+
+# Mesh refinement specifications 
+# # (increased refinement for top 80 km)
+subsection Mesh refinement
+  set Initial adaptive refinement        = 3
+  set Initial global refinement          = 3
+  set Time steps between mesh refinement = 5
+  set Minimum refinement level                 =3
+  set Strategy                                 = minimum refinement function
+  subsection Minimum refinement function
+        set Coordinate system = cartesian
+        set Variable names = x,y, z
+      set Function expression = if(z>=520e3, 7,if(z<520e3 && z>=420e3, 4 ,3))
+   end
+end
+
+# Boundary classifications
+# # Composition: fixed on bottom, free on sides and top
+# # Velocity: free surface on top, outflow at bottom of  sides,
+# #  inflow at base and in the lithosphere
+# # Temperature: fixed at top and bottom, insulating sides
+subsection Model settings
+  set Fixed temperature boundary indicators   = bottom, top
+  set Prescribed velocity boundary indicators = left x: function, right x:function, bottom z:function
+  set Free surface boundary indicators        = top
+  set Tangential velocity boundary indicators = front, back
+end
+
+subsection Free surface
+  set Surface velocity projection = vertical
+end
+
+# Velocity on boundaries characterized by functions
+# In the models presented here, we apply a prescribed boundary velocity on the north and south boundaries, and tangential velocity boundary condition on the west, east and base walls of the model, and a free surface on top. We have modelled the Cartesian 3D box large enough so that deformation driven from the scarring is not influenced by the tangential boundary conditions (as described below).
+# The prescribed boundary condition on the north wall is a 1 cm/yr convergence for the lithosphere (120 km) and a return flow of -0.6 cm/yr for the bottom 200 km of the box. In between, the velocity tapers from 1 cm/yr to 0 cm/yr from 120 km to 225 km depth, and from 0 cm/yr to -0.6 cm/yr from 200 km to 400 km depth. The reverse is applied to the west wall, with 1 cm/yr compression for the lithosphere. After extensive testing, we found this boundary condition to provide stable solutions.
+#
+subsection Boundary velocity model
+  subsection Function
+    set Variable names      = x,y,z
+    set Function constants  = cm=0.01, year=1
+        set Function expression = if (x<=0e3 && z>=480e3, 1.0*cm/year,\
+                 if (x>=800e3 && z>=480e3, -1.0*cm/year, \
+                if (x<=0e3 && z<480e3 && z>=375e3,  \
+                 (1.*cm/year - ((0.00000952381)*(600e3-120e3-z)*cm/year)), \
+                if (x>=800e3 && z<480e3 && z>=375e3,  \
+                (-1.*cm/year + ((0.00000952381)*(600e3-120e3-z)*cm/year)), \
+                if (x<=0e3 && z>=200e3 && z<375e3,  \
+                (0 - ((0.00000342857)*(600e3-120e3-105e3-z)))*cm/year, \
+                if (x>=800e3 && z>=200e3 && z<375e3,  \
+                (0 + ((0.00000342857)*(600e3-120e3-105e3-z)))*cm/year, \
+                if (x>=800e3 && z<200e3,  (0.6*cm/year),\
+                if (x<=0e3 &&  z<200e3,  (-0.6*cm/year), 0))))))));0; 22e-09
+  end
+end
+
+
+# Number and names of compositional fields
+# # The six compositional fields represent the total strain, upper crust, lower crust, mantle
+# # astenosphere, and a suture (seed) placed in the mantle.
+subsection Compositional fields
+  set Number of fields = 6
+  set Names of fields = eii, upper, lower, mantle, astheno, seed
+end
+
+
+# Spatial domain of different compositional fields
+# # The upper crust, lower crust, mantle, and astenosphere are continuous horizontal layers
+# # of varying thickness. 
+# # The suture is drawn in the shape of the edge of the Sabine Block, as a dipping structure.
+# # angle_hor = angle of suture from horizontal (90-angle_hor) = 15 degrees
+# # pi = pi
+# # scar_wid = width of suture 
+# angle_vert = angle of suture from vertical in x-y plane (set to 0 here)
+# # ylim1, ylim2, xlim1, xlim2 = positioning of suture.
+subsection Initial composition model
+  set Model name = function
+  subsection Function
+    set Variable names      = x,y, z
+set Function constants = angle_hor=75, pi=3.14159265359, scar_wid=10e3, angle_vert = 0, scar_len = 50e3, ylim1=300e3, ylim2= 500.e3, xlim1=400.e3, xlim2 = 435.4e3
+
+    set Function expression = 0; if(z>=580.e3, 1, 0); \
+                              if(z<580.e3 && z>=570.e3, 1, 0); \
+                              if(z<570.e3 && z>=480.e3,1, 0); \
+                              if(z<480.e3 && z>-200.e3,1, 0); \
+                          if(z<568.e3 && z>548.e3 && (y>=ylim1 && y<ylim2 && \
+                 ((x>=(xlim1+(568e3-z)*tan(angle_hor*(pi/180))+(ylim2-y)*(tan(angle_vert*(pi/180)))) && \
+                x<(xlim1+(scar_wid)+(568e3-z)*tan(angle_hor*(pi/180))+(ylim2-y)*(tan(angle_vert*(pi/180)))))) \
+                || (y<(ylim2+scar_wid) && y>=(ylim2) && \
+                x>=(xlim1+(568e3-z)*tan(angle_hor*(pi/180))) && \
+                x<(xlim1+100e3+(568e3-z)*tan(angle_hor*(pi/180)))) \
+                || (y<(ylim1) && y>=(ylim1-100e3) && x>=((xlim1)+(568e3-z)*tan(angle_hor*(pi/180))+(ylim1-y)*(tan(45*(pi/180)))) && \
+                x<(xlim1+scar_wid+(568e3-z)*tan(angle_hor*(pi/180))+(ylim1-y)*(tan(45*(pi/180)))))),1,0);
+
+end
+end
+
+# Composition boundary conditions
+subsection Boundary composition model
+  set Model name = initial composition
+end
+
+# Temperature boundary conditions
+# Top and bottom (fixed) temperatures are consistent with the initial temperature field
+# Note that while temperatures are specified for the model sides, these values are
+# not used as the sides are not specified "Fixed temperature boundaries".  Rather,
+# these boundaries are insulating (zero net heat flux).
+subsection Boundary temperature model
+  set List of model names = box
+  subsection Box
+    set Bottom temperature = 1727.8
+    set Top temperature    =  273
+  end
+end
+
+# Initial temperature field
+# # 
+# # Started from the ASPECT cookbook 'Continental Extension' by 
+# # Prof John Naliboff. 
+# #
+# # Typical continental geotherm based on equations 4-6 from:
+# #   D.S. Chapman (1986), "Thermal gradients in the continental crust",
+# #   Geological Society of London Special Publications, v.24, p.63-70.
+# # The initial constraints are:
+# #   Layer Surface Temperature - upper crust (ts1) = 273 K; 
+# #   Temperature - base of upper crust (ts2) = 681.5714
+# #                               mantle      (ts3) = 823 K;  
+# #   Model Base Temperature - (ts4) = 1573 K;
+# #   Heat Production - upper crust (A) = 1.5e-6 W/m^3; 
+# #   Thermal Conductivity - upper crust (k1) = 2.5 (W/(m K)); 
+# #                          lower crust (k2) = 2.5 (W/(m K)); 
+# #                          mantle      (k3) = 3.3 (W/(m K));
+# #                          asthenosphere (k4) = 39.25 (W/(m K));
+# # To satisfy these constraints, the following values are required:
+# #   Layer Surface Heat Flow - upper crust (qs1) = 0.065357 W/m^2; 
+# #                             lower crust (qs2) = 0.035357 W/m^2; 
+# #                             mantle      (qs3) = 0.0275 W/m^2;
+# #                             astheosphere      (qs4) = 0.01265823 W/m^2;
+# #
+# # Table DR2 gives the values for the thermal constraints required to generate the geotherm. As described in Naliboff and Buiter (2015), we use a high conductivity in the asthenosphere to maintain the high adiabat in the layer, and to generate a constant heat flux into the lithosphere (Pysklywec and Beaumont, 2004).
+# #
+subsection Initial temperature model
+  set Model name = function
+  subsection Function
+    set Variable names = x,y, z
+    set Function constants = h=600e3,ts1=273,ts2=681.5714,ts3=823.,ts4=1573., \
+                                     k1=2.5,k2=2.5,k3=3.3,k4=39.25,A=1.5e-6, \
+                             qs1=0.0653571,qs2=0.035357,qs3=0.0275,qb3=0.01265823
+
+    set Function expression = if( (h-z)<=20.e3, \
+                                  ts1 + (qs1/k1)*(h-z) - (A*(h-z)*(h-z))/(2.0*k1), \
+                                  if((h-z)>20.e3 && (h-z)<=30.e3, ts2 + (qs2/k2)*(h-z-20.e3),\
+                if((h-z)>30.e3 && (h-z)<=120.e3, ts3 + (qs3/k3)*(h-z-30.e3), \
+                        ts4 + (qb3/k4)*(h-z-120e3))));                              
+  end
+end
+
+# Constant internal heat production values (W/m^3) for background material
+# and compositional fields.
+subsection Heating model
+  set List of model names = compositional heating
+  subsection Compositional heating
+    set Compositional heating values = 0., 0., 1.5e-6, 0., 0., 0., 0.
+  end
+end
+
+# Material model
+# # The rheological setup of these models closely follows that of Naliboff and Buiter (2015). 
+# # Table DR1 outlines the rheological parameters used for the different compositional layers. 
+# # The upper crust implements a wet quartzite flow law (Rutter and Brodie, 2004), lower crust applies wet anorthite (Rybacki et al., 2006), and the mantle dry olivine (Hirth and Kohlstedt, 2004). 
+# # All the viscous pre-factors described in Table DR1 are scaled to plane strain from unixial strain experiments. 
+# # Rheology: Non-linear viscous flow and Drucker Prager Plasticity
+# # Values for most rheological parameters are specified for a background material and
+# # each compositional field.  Values for viscous deformation are based on dislocation
+# # creep flow-laws, with distinct values for the upper crust (wet quartzite), lower
+# # crust (wet anorthite) and mantle (dry olivine).  
+
+subsection Material model
+  set Model name = visco plastic
+
+  subsection Visco Plastic
+
+    # Reference temperature and viscosity
+    set Reference temperature = 293
+    set Reference viscosity = 1e22
+    
+    # The minimum strain-rate helps limit large viscosities values that arise
+    # as the strain-rate approaches zero.
+    # The reference strain-rate is used on the first non-linear iteration
+    # of the first time step when the velocity has not been determined yet. 
+    set Minimum strain rate = 1.e-20
+    set Reference strain rate = 1.e-16
+
+    # Limit the viscosity with minimum and maximum values
+    set Minimum viscosity = 1e18
+    set Maximum viscosity = 1e26
+
+    # Thermal diffusivity is adjusted to match thermal conductivities
+    # assumed in assigning the initial geotherm
+    set Thermal diffusivities = 1.333333e-6, 1.333333e-6, 1.190476e-6, 1.149425e-6, 1.333333e-6, 1.333333e-6, 1.333333e-6
+    set Heat capacities       =        750, 750.,        750.,        750.,        750.,         750., 750.
+    set Densities             =        3300, 3300,        2800,        2900,        3300,         3300, 3300
+    set Thermal expansivities =        2e-5, 2e-5,        2e-5,        2e-5,        2e-5,         2e-5, 2e-5
+
+    # Harmonic viscosity averaging
+    set Viscosity averaging scheme = harmonic
+
+    # Choose to have the viscosity (pre-yield) follow a dislocation
+    # diffusion or composite flow law.  Here, dislocation is selected
+    # so no need to specify diffusion creep parameters below, which are
+    # only used if "diffusion" or "composite" option is selected.
+    set Viscous flow law = dislocation
+
+    # Dislocation creep parameters for 
+    # 1. Background material/mantle (dry olivine)
+    #    Hirth & Kohlstedt (2004),  Geophys. Monogr. Am. Geophys. Soc., v.138, p.83-105.
+    #    "Rheology of the upper mantle and the mantle wedge:a view from the experimentalists"
+    # 2. Upper crust (wet quartzite)
+    #    Rutter & Brodie (2004), J. Struct. Geol., v.26, p.2011-2023.
+    #    "Experimental grain size-sensitive flow of hot-pressed Brazilian quartz aggregates"
+    # 3. Lower crust and weak seed (wet anorthite)
+    #    Rybacki et al. (2006), J. Geophys. Res., v.111(B3).
+    #    "Influence of water fugacity and activation volume on the flow properties of fine-grained    
+    #    anorthite aggregates"
+    # Note that the viscous pre-factors below are scaled to plane strain from unixial strain experiments.
+    set Prefactors for dislocation creep          = 6.52e-16, 6.52e-16, 8.57e-28, 7.13e-18, 6.52e-16, 6.52e-16, 6.52e-16
+    set Stress exponents for dislocation creep    =      3.5, 3.5,      4.0,      3.0,      3.5, 3.5, 3.5
+    set Activation energies for dislocation creep =   530.e3, 530.e3,   223.e3,   345.e3,   530.e3, 530.e3, 530.e3
+    set Activation volumes for dislocation creep  =  18.e-6, 18.e-6,       0.,       0.,   18.e-6, 18.e-6,  18.e-6
+
+    # Plasticity parameters - weakness of mantle suture is given by lowering angle of internal friction
+    set Angles of internal friction =   20., 20.,   20.,  20.,    20., 20., 1.
+    set Cohesions                   = 20.e6, 20.e6, 20.e6, 20.e6, 20.e6, 20.e6, 20.e6
+    set Use strain weakening = true
+    set Start strain weakening intervals  = 0.5
+    set End strain weakening intervals    = 1.5
+    set Cohesion strain weakening factors = 0.5
+    set Friction strain weakening factors = 0.5
+
+#    set Use strain weakening = true
+#    set Start strain weakening intervals = 0.,0.,0.,0.,0.,0.
+#    set End strain weakening intervals = 1.0,1.0,1.0,1.0,1.0,1.0
+#    set Cohesion strain weakening factors = 0.5,0.5,0.5,0.5,0.5,0.5
+#    set Friction strain weakening factors = 0.5,0.5,0.5,0.5,0.5,0.5
+
+  end
+end
+
+# Gravity model
+subsection Gravity model
+  set Model name = vertical
+
+  subsection Vertical
+    set Magnitude = 9.81
+  end
+end
+
+subsection Formulation
+        set Formulation = custom
+        set Mass conservation = ask material model
+        set Temperature equation = real density
+end
+
+# Post processing
+subsection Postprocess
+  set List of postprocessors = velocity statistics, topography, basic statistics, temperature statistics, visualization
+  subsection Visualization
+    set List of output variables = density, viscosity, strain rate
+    set Output format = vtu
+    set Time between graphical output = 1e6
+    set Interpolate output = true
+    set Number of grouped files       = 40
+
+  end
+end
+
+# References: 
+# # ASPECT is a geodynamic modelling code that uses the finite-element method to solve the system of equations that describes the motion of a highly viscous fluid. Detail of the code that isn’t directly related to the modelling setup specific to this study can be found in the ASPECT user manual (Bangerth et al., 2018) and a recent ASPECT canonical publication (Heister et al., 2017). Computations were done using the ASPECT code version 2.0.0, see Heister et al., 2017, Bangerth et al., 2018, Kronbichler et al., 2012 and Rose et al., 2017.
+# # 
+# #Bangerth, W., Dannberg, J., Gassmoeller, R., & Heister, T. (2018, May 10). Aspect V2.0.0. Zenodo. https://doi.org/10.5281/zenodo.1244587
+# #Chapman, D., 1986. Thermal gradients in the continental crust. In: Dawson, J., Carswell, D., Hall, J., Wedepohl, K. (Eds.), The Nature of the Lower Continental Crust, vol. 24. Geol. Soc. Spec. Publ., pp. 63–70.
+# #   Glerum, A., Thieulot, C., Fraters, M., Blom, C., and Spakman, W., 2017, Implementing
+# #    nonlinear viscoplasticity in ASPECT: benchmarking and applications to 3D subduction
+# #     modeling, Solid Earth Discuss., https://doi.org/10.5194/se-2017-9.
+# # Heister, T., Dannberg, J., Gassmoller, R., Bangerth, W., 2017, High accuracy mantle convection simulation through modern numerical methods – II: realistic models and problems. Geophys. J. Int. 210, 833–851.
+# #Hirth, G. and Kohlstedt, D., 2003, Rheology of the upper mantle and the mantle wedge: a view from the experimentalists. In: Eiler, J. (Ed.), Inside the Subduction Fac- tory. In: Geophys. Monogr. Am. Geophys. Soc., vol. 138, pp. 83–105.
+# #Kronbichler, M., Heister, T., and Bangerth, W., 2012, High accuracy mantle convection simulation through modern numerical methods, Geophysical Journal International, 191, 12– 29.
+# # Naliboff, J., and S. J. H. Buiter, 2015, Rift reactivation and migration during multiphase extension, Earth Planet. Sci. Lett., 421, 58–67, doi:10.1016/j.epsl.2015.03.050
+# # Pysklywec, R., Beaumont, C., 2004, Intraplate tectonics: feedback between radioactive thermal weakening and crustal deformation driven by mantle lithosphere instabilities. Earth Planet. Sci. Lett. 221, 275–292.
+# # Rose, I., Buffett, B., & Heister, T. (2017). Stability and accuracy of free surface time integration in viscous flows. Physics of the Earth and Planetary Interiors, 262, 90–100. doi:10.1016/j.pepi.2016.11.007
+# # Rutter, E., and Brodie, K., 2004, Experimental grain size-sensitive flow of hot-pressed Brazilian quartz aggregates. J. Struct. Geol. 26, 2011–2023.
+# # Rybacki, E., Gottschalk, M., Wirth, R., Dresen, G., 2006, Influence of water fugacity and activation volume on the flow properties of fine-grained anorthite aggregates. J. Geophys. Res. 111 (B3).
+#
+#
+
