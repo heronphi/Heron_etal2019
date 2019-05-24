@@ -285,11 +285,6 @@ subsection Material model
     set Cohesion strain weakening factors = 0.5
     set Friction strain weakening factors = 0.5
 
-#    set Use strain weakening = true
-#    set Start strain weakening intervals = 0.,0.,0.,0.,0.,0.
-#    set End strain weakening intervals = 1.0,1.0,1.0,1.0,1.0,1.0
-#    set Cohesion strain weakening factors = 0.5,0.5,0.5,0.5,0.5,0.5
-#    set Friction strain weakening factors = 0.5,0.5,0.5,0.5,0.5,0.5
 
   end
 end
